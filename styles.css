@@ -90,4 +90,51 @@ ul, .subtext
     margin-top: 10px;
 }
 
+.random
+{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.cards
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 900px;
+}
+
+.card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 250px;
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+}
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.info
+{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
