@@ -138,3 +138,40 @@ ul, .subtext
     color: #1f2937;
     margin-bottom: 50px;
 }
+
+.quote
+{
+    width: 100%;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.quote.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 900px;
+}
+
+.main
+{
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937
+}
+
+.source
+{
+    font-size: 30px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+
